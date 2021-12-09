@@ -1,0 +1,31 @@
+
+.dias {
+    background-color: rgb(231, 160, 102);
+}
+.PATIO{
+    font-size: 300%;
+  }
+.seguridad {
+    background-color: rgb(187, 116, 218);
+}
+.AW {
+    background-color: lightgreen;
+}
+.empresa {
+    background-color: lightpink;
+}
+.SO {
+    background-color: lightseagreen;
+}
+.servicios {
+    background-color: slategray;
+}
+th {
+    font-size: 200%;
+  }
+  td {
+    text-align: center;
+    font-size: 150%;}
+header{
+  text-align: right;
+}
