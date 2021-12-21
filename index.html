@@ -1,47 +1,77 @@
 
 <!DOCTYPE html>
-<!-- Primera web completament feta per noltros -->
+
 <html>
     <head>
         <link rel="stylesheet" href="../estil/general.css">
-
         <title>ProvaWeb</title>
         <meta charset="UTF-8">
         <style>
-            /*Provam de donar stil desde dins el document*/
+            
             h1 {
                 font-size: 400%;
-                color:rgb(153, 0, 255);
+                color:rgb(147, 7, 255);
                 text-align: center;
             }
             p {
                 text-align: center;
             }
+            ul {
+                
+                list-style-type: lower-roman;
+                margin: 0;
+                padding: 0;
+                width: 200px;
+                height: 300px;
+                background-color:rgb(147, 152, 158);
+            }
+            li a {
+                font-size: 150%;
+                display: block;
+                color: rgb(255, 255, 255);
+                padding: 5px 20px;
+                text-decoration:none;
+            }
+            
         </style>
 
     </head>
 
     <body> 
-        <body style="background-image: image(imatges/coche.png);"width= "1000"height= "500"></body>
+        <body style="background-color: rgb(241, 155, 114);"width= "1000"height= "500"></body>
+        
+        <aside>
+         <ul>
+                <h2 class="barra">Barra de navegacion</h2>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pagines/calendari.html">Calendari</a></li>
+                <li><a href="./pagines/rellotge.html">Rellotge</a></li>
+                <li><a href="./pagines/holamon.html">Holamon</a></li>
+                <li><a href="./pagines/Horari.html">Horari</a></li>
+            </ul>
+        </aside>    
+    
         <h1>Proves</h1>
         <p>
             <a href="./pagines/holamon.html"> 
                 <img src="./imatges/holamon.png" width="300" height="200">
                 <br>Hola món</br>        
             </a>
-        
-        </p>
+        </p>    
         <p>
             <a href="pagines/rellotge.html">
                   <img src="imatges/rellotge.png" width="300" height="200"><br>Rellotge<br> </a> </p>
         <p>
             <a href="pagines/carro.html">
-                <img src="imatges/coche.png" width="300" height="200"><br>Cotxe<br> </a></p>
+                <img src="imatges/coche.jpg" width="300" height="200"><br>Cotxe<br> </a></p>
         <p> 
             <a href="pagines/Horari.html">
-            <img src="imatges/horario.png" width="300" height="200"><br>Calendari</br></a></p>
+            <img src="imatges/horario.png" width="300" height="200"><br>Horari</br></a></p>
         </p>
-    
+        <p>
+            <a href="pagines/calendari.html">
+            <img src="imatges/calendario.jpeg" width="300" height="200"><br>Calendari</br></a></p>
+        </p>
     </body>
 
 </html>

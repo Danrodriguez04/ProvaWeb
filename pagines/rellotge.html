@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 
 <html>
@@ -12,6 +11,11 @@
 h1{
 font-size: 50px;
 text-align: center;
+}
+p {
+    color: mediumblue;
+    text-align: left;
+    font-size: 100%;
 }
 div{
 font-size: 60px;
@@ -29,19 +33,25 @@ m = checkTime(m);
 s = checkTime(s);
 document.getElementById('txt').innerHTML =
 h + ":" + m + ":" + s;
-var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-if (i < 10) {i = "0" + i}; // add zero in front of numbers < 10
-return i;
-}
-</script>
+    var t = setTimeout(startTime, 500);
+    }
+        function checkTime(i) {
+        if (i < 10) {i = "0" + i}; // add zero in front of numbers < 10
+        return i;
+    }
+    </script>
 </head>
 
 
 <body onload="startTime()">
-<h1> Rellotge Aplicacions Web </h1>
-<div id="txt"></div>
+    <header>WEB DE PROVA</header>
+    <body style="background: lightsalmon;"></body>
+        <h1> Rellotge Aplicacions Web </h1>
+    <div id="txt"></div>
+    <p>aqui podemos ver la hora en tiempo real incluyendo minutos y segundos</p>
+    <footer>
+        <a href="../index.html">Inicio</a>
+    </footer>
 </body>
 
 </html>
